@@ -25,6 +25,6 @@ jobs:
                   fetch-depth: 0
                   token: ${{ secrets.GH_ACCESS_TOKEN }}
             - name: Remove reports
-              uses: gemini-testing/gh-actions-reports-ttl-cleaner@b9bf46082437bbd9881d0de44d4300d8b96264a0
+              uses: gemini-testing/gh-actions-reports-ttl-cleaner@9285c41f9923bec6575e187365a2b21011289e27
               with:
                   token: ${{ secrets.GH_ACCESS_TOKEN }}
