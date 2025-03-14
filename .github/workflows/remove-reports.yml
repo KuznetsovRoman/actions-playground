@@ -27,4 +27,4 @@ jobs:
             - name: Remove reports
               uses: gemini-testing/gh-actions-reports-ttl-cleaner@824850ce63565669d5d4e0f02610dad4b49526b5
               with:
-                  personal-token: ${{ secrets.GH_ACCESS_TOKEN }}
+                  token: ${{ secrets.GH_ACCESS_TOKEN }}
