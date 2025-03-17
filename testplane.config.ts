@@ -27,9 +27,9 @@ export default {
         },
         firefox: {
             headless: true,
-            browserVersion: "134.0",
             desiredCapabilities: {
-                browserName: "firefox"
+                browserName: "firefox",
+                browserVersion: "134.0",
             }
         }
     },
