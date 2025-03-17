@@ -32,7 +32,7 @@ jobs:
 
       - name: Test
         id: testplane
-        uses: gemini-testing/gh-actions-testplane@TESTPLANE-389.action
+        uses: gemini-testing/gh-actions-testplane@v1.0.0
 
       - name: Upload report
         if: always() && steps.testplane.outputs.html-report-path
