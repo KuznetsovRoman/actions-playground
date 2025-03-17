@@ -10,7 +10,8 @@ jobs:
   build_and_test:
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: write
+      contents: write # gh-pages
+      pull-requests: write # leave comment with link to report
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
