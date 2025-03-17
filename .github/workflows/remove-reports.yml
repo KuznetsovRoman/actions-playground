@@ -14,8 +14,6 @@ on:
                     - patch
                     - minor
                     - major
-permissions:
-    pull-requests: write
 jobs:
     collect:
         name: Remove old reports
