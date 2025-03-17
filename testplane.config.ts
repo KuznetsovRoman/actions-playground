@@ -21,11 +21,13 @@ export default {
             headless: true,
             desiredCapabilities: {
                 browserName: "chrome",
+                browserVersion: "134",
                 "goog:chromeOptions": { args: ["--no-sandbox"] }
             }
         },
         firefox: {
             headless: true,
+            browserVersion: "134.0",
             desiredCapabilities: {
                 browserName: "firefox"
             }
