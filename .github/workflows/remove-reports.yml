@@ -2,18 +2,8 @@ name: Remove old reports
 on:
     push:
         branches: [master]
-    schedule:
-        - cron: 0 0 * * *
     workflow_dispatch:
-        inputs:
-            versionType:
-                type: choice
-                description: Some choice
-                required: true
-                options:
-                    - patch
-                    - minor
-                    - major
+
 jobs:
     collect:
         name: Remove old reports
